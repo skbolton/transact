@@ -16,13 +16,15 @@ At any time if you would like to reset the database you can run:
 $ mix ecto.reset
 ```
 
+This will drop all the database tables, run migrations, and reseed database.
+
 Once the database is setup you can then start the server. This will start it up at localhost:4000
 
 ```
 mix phx.server
 ```
 
-Now get the frontend application running. This will get the application running at localhost:3000
+Now get the frontend application running. This will have the application running at localhost:3000
 
 ```
 $ cd transact-client
