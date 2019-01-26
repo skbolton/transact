@@ -1,0 +1,55 @@
+// Customze bulma
+$purple: #6c54b8;
+$light-teal: #a4f1ea;
+$teal: #00d3bb;
+$very-light-grey: #f7f8fc;
+
+$primary: $purple;
+$link: $teal;
+$white-ter: $very-light-grey;
+
+@import "~bulma";
+
+html,
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.nav {
+  padding: 0 24px;
+  margin-bottom: 24px;
+}
+
+.logo {
+  font-family: "Comfortaa", "arial";
+}
+
+.logo-icon {
+  font-size: 32px !important;
+}
+
+.fullheight {
+  height: 100%;
+}
+
+.side-drawer {
+  width: 400px;
+  position: absolute;
+  right: 0;
+  // enough to clear the nav bar
+  top: 52px;
+  z-index: 10;
+  padding: 24px;
+  height: 100%;
+  background: white;
+  border-left: solid 1px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard {
+  width: 100%;
+  height: 100%;
+}
